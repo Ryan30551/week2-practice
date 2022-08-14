@@ -72,15 +72,18 @@ console.log('I do not like red')
 
     //creating a multiplication table
 
-    for(var i=1; i<=10; i++) {
-      console.log(num +" x " + i + " = " + (num*i) );
+    let num = 1;
 
-    for (let i = 0; i <= 100; i++) 
+    for(var i = 0; i<=10; i++) {
+      console.log(num +" x " + i + " = " + (num * i));
+    }
+    for (let i = 0; i <= 100; i++) {
       console.log("i");
-      
+    }
+
     //creating a for loop that prints 1-100 and prints "foo" if a number is even
 
-    for(var i = 1; i <= 100; i++){
+    for(var i = 1; i <= 100; i++)
       if (i % 2 === 0){
           console.log(i + " foo")
       }
@@ -94,12 +97,16 @@ console.log('I do not like red')
 
     //Create a do/while loop that will print the userNumber and then add 6 after each loop. Stop the loop once the number is greater than or equal to 100.
 
+    let userNumber = 1;
     do {
       console.log(userNumber);
       userNumber = userNumber + 6;
   } while(userNumber <= 100);
 
   //Using the supplied variables, create a loop of your choice that will add cups of rice to a bowl.
+
+  let currentCupsOfRice = 1;
+  let requiredCupsOfRice = 1;
 
   while(currentCupsOfRice != requiredCupsOfRice){
     console.log('The bowl contains ' + (++currentCupsOfRice) + ' cups of rice.');
@@ -108,13 +115,17 @@ console.log('We have enough rice!');
 
 //Write a for loop that prints the numbers 0 to x. The x has been initialized for you and will be based on a user's input.
 
+let x = 1;
+
 for ( var i = 0; i <= x; ++i ) {
   console.log(i);
 }
 
 //Creating a game
 
-for(var i = 0; i < 100 && points < 290; i++){
+let points = 1;
+
+for(var i = 0; i < 100 && points < 290; i++)
   if(points == 125 && pointsReset === false){
       points = 25;
       pointsReset = true;
@@ -127,6 +138,8 @@ for(var i = 0; i < 100 && points < 290; i++){
   console.log("Turns: " + i + " Score: " + points)
 
   //countdown loop
+
+  let countdown = 5;
 
   if (countdown <= 10 && countdown >= 3) {
     while (countdown >= 1) {
@@ -150,6 +163,12 @@ if ( userNumber <= 100 && userNumber >= 1 ) {
 
 //example loops
 
-for (let i = 0; i < 5; i++) {
-	console.log('Hello World');
+for (let i = 1; i <= 5; i++) {
+	console.log('Hello World', i);
+}
+
+//add a 'if' statement to for loop
+
+for (let i = 5; i >= 1; i--) {
+  if (i % 2 !== 0) console.log(i);
 }
