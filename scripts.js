@@ -163,12 +163,22 @@ if ( userNumber <= 100 && userNumber >= 1 ) {
 
 //example loops
 
+//'for' loop
+
 for (let i = 1; i <= 5; i++) {
 	console.log('Hello World', i);
 }
 
-//add a 'if' statement to for loop
+//add a 'if' statement to make a 'for if' loop
 
 for (let i = 5; i >= 1; i--) {
   if (i % 2 !== 0) console.log(i);
+}
+
+//'while' loop
+
+let v = 0;
+while (v < 10) {
+  console.log(i);
+i++;
 }
