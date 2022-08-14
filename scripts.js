@@ -177,8 +177,8 @@ for (let i = 5; i >= 1; i--) {
 
 //'while' loop
 
-let v = 0;
-while (v < 10) {
-  console.log(i);
+var a = 0;
+while(a < 10) {
+  console.log(a);
 i++;
 }
