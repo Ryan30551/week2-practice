@@ -106,7 +106,7 @@ console.log('I do not like red')
 }
 console.log('We have enough rice!');
 
-Write a for loop that prints the numbers 0 to x. The x has been initialized for you and will be based on a user's input.
+//Write a for loop that prints the numbers 0 to x. The x has been initialized for you and will be based on a user's input.
 
 for ( var i = 0; i <= x; ++i ) {
   console.log(i);
@@ -148,4 +148,8 @@ if ( userNumber <= 100 && userNumber >= 1 ) {
     console.log("Your number was not between 1 and 100.");
 }
 
-//
+//example loops
+
+for (let i = 0; i < 5; i++) {
+	console.log('Hello World');
+}
