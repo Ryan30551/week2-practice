@@ -182,3 +182,36 @@ while(a < 10) {
   console.log(a);
 i++;
 }
+
+//adding in a 'break' will stop the code from running further
+
+var a = 0;
+while(a < 10) {
+  console.log(a);
+i++;
+if(i === 5) break;
+}
+
+//adding in 'continue' will allow code to stop after a break, then re-start 
+
+var a = 0;
+while(a < 10) {
+i++;
+if(i === 5) continue;
+console.log(a);
+}
+
+
+//'do while' loop. The 'do' statement will always run the first time, and run the 'do' statement the first time. 
+//It will then value the condition, and if true, it will continue to run. If false, the 'while' will not run.  
+
+var a = 0;
+do {
+  i++;
+  if(i === 5) continue;
+}
+while(a < 10) {
+  console.log(a);
+i++;
+console.log(a);
+} while (i < 0);
